@@ -4,14 +4,14 @@ function urlvalidator(url)
 {
     const regex = emojiRegex();
 
-    if (url = '')
+    if (url === '')
     {
         return false;
     }
     
-    url_replace = url.replaceAll(regex, '');
+    let url_replace = url.replaceAll(regex, '');
 
-    if (url_replace = '')
+    if (url_replace === '')
     {
         return true;
     }
@@ -20,3 +20,5 @@ function urlvalidator(url)
         return false;
     }
 }
+
+export default urlvalidator;
