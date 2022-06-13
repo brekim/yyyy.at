@@ -1,43 +1,43 @@
 /* eslint-disable */
 // this is an auto generated file. This will be overwritten
 
-export const createTodo = /* GraphQL */ `
-  mutation CreateTodo(
-    $input: CreateTodoInput!
-    $condition: ModelTodoConditionInput
+export const createRedirect = /* GraphQL */ `
+  mutation CreateRedirect(
+    $input: CreateRedirectInput!
+    $condition: ModelRedirectConditionInput
   ) {
-    createTodo(input: $input, condition: $condition) {
+    createRedirect(input: $input, condition: $condition) {
       id
-      name
-      description
+      emojis
+      external
       createdAt
       updatedAt
     }
   }
 `;
-export const updateTodo = /* GraphQL */ `
-  mutation UpdateTodo(
-    $input: UpdateTodoInput!
-    $condition: ModelTodoConditionInput
+export const updateRedirect = /* GraphQL */ `
+  mutation UpdateRedirect(
+    $input: UpdateRedirectInput!
+    $condition: ModelRedirectConditionInput
   ) {
-    updateTodo(input: $input, condition: $condition) {
+    updateRedirect(input: $input, condition: $condition) {
       id
-      name
-      description
+      emojis
+      external
       createdAt
       updatedAt
     }
   }
 `;
-export const deleteTodo = /* GraphQL */ `
-  mutation DeleteTodo(
-    $input: DeleteTodoInput!
-    $condition: ModelTodoConditionInput
+export const deleteRedirect = /* GraphQL */ `
+  mutation DeleteRedirect(
+    $input: DeleteRedirectInput!
+    $condition: ModelRedirectConditionInput
   ) {
-    deleteTodo(input: $input, condition: $condition) {
+    deleteRedirect(input: $input, condition: $condition) {
       id
-      name
-      description
+      emojis
+      external
       createdAt
       updatedAt
     }

@@ -3,10 +3,14 @@
   "serviceConfiguration": {
     "apiName": "yyyyat",
     "serviceName": "AppSync",
-    "gqlSchemaPath": "/Users/charleskim/Desktop/react-projects/yyyy.at/frontend/yyyy.at/amplify/backend/api/yyyyat/schema.graphql",
+    "gqlSchemaPath": "D:\\data\\2022 summer\\yyyy.at\\yyyy.at\\frontend\\yyyy.at\\amplify\\backend\\api\\yyyyat\\schema.graphql",
     "defaultAuthType": {
       "mode": "API_KEY",
-      "expirationTime": 7
-    }
+      "expirationTime": 365,
+      "apiKeyExpirationDate": "2023-06-13T05:23:41.822Z",
+      "keyDescription": ""
+    },
+    "conflictResolution": {},
+    "additionalAuthTypes": []
   }
 }

@@ -1,28 +1,28 @@
 /* eslint-disable */
 // this is an auto generated file. This will be overwritten
 
-export const getTodo = /* GraphQL */ `
-  query GetTodo($id: ID!) {
-    getTodo(id: $id) {
+export const getRedirect = /* GraphQL */ `
+  query GetRedirect($id: ID!) {
+    getRedirect(id: $id) {
       id
-      name
-      description
+      emojis
+      external
       createdAt
       updatedAt
     }
   }
 `;
-export const listTodos = /* GraphQL */ `
-  query ListTodos(
-    $filter: ModelTodoFilterInput
+export const listRedirects = /* GraphQL */ `
+  query ListRedirects(
+    $filter: ModelRedirectFilterInput
     $limit: Int
     $nextToken: String
   ) {
-    listTodos(filter: $filter, limit: $limit, nextToken: $nextToken) {
+    listRedirects(filter: $filter, limit: $limit, nextToken: $nextToken) {
       items {
         id
-        name
-        description
+        emojis
+        external
         createdAt
         updatedAt
       }
