@@ -1,4 +1,4 @@
-import React, { Component, useState }  from 'react';
+import React, { useState }  from 'react';
 import './App.css';
 import EmojiBar from './components/EmojiBar' 
 
